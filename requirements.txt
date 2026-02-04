@@ -1,0 +1,25 @@
+# AWS Bedrock Tutorial - Dependencies
+
+# AWS SDK
+boto3>=1.28.0
+botocore>=1.31.0
+
+# LangChain ecosystem
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-aws>=0.1.0
+langchain-community>=0.0.10
+
+# Embeddings and Vector Stores
+faiss-cpu>=1.7.4
+
+# Data validation and parsing
+pydantic>=2.0.0
+pydantic-core>=2.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+
+# Optional but recommended
+aiohttp>=3.8.0  # For async HTTP
+requests>=2.31.0  # For API calls
